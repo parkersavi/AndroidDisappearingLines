@@ -1,16 +1,3 @@
----
-layout: post
-title: "Android: How to create disappearing lines in Android just like Apple watch when you finger paint"
-modified:
-categories: blog
-excerpt:
-tags: [android,tutorial]
-image:
-  feature:
-date: 2015-06-08T15:39:55-04:00
----
-* Table of Contents
-{:toc}
 
 ## Objective
 To draw lines (fingerpaint) and makes them fadeout gradually giving the effect of disappearing lines just like you see them in Apple Watch
