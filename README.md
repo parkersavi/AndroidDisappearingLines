@@ -28,8 +28,8 @@ Our object is called LinePath. We store the following in it
 
 3. **canAnimate** - boolean flag to tell us if the object can be animated or not. 
 
- {% highlight css %}
-  
+ ```
+   
     class LinePath {
         private Path path;
         private Paint paint;
@@ -56,23 +56,25 @@ Our object is called LinePath. We store the following in it
 
     }
 
-  {% endhighlight %}
+  ```
   
   
   **Step 2:**
   
   Create a Blocking queue to store our LinePath objects.
    
-  {% highlight css %}
+  ```
+  
    public static BlockingDeque<LinePath> linePaths = new LinkedBlockingDeque<LinePath>();
-  {% endhighlight %}
+  
+  ```
   
   
   **Step 3:**
   Iteration over the queue.
    
   Once the objects are added to the queue, we iterate over all the objects in the queue and draw each line based on the properties stored in LinePath object
-    {% highlight css %}
+    ```
     @Override
     protected void onDraw(Canvas canvas) {
         for(LinePath p : linePaths) {
@@ -80,11 +82,11 @@ Our object is called LinePath. We store the following in it
         }
         invalidate();
     }
-     {% endhighlight %}
+     ```
   
   We now create a timer task that basically iterates over line path objects from the queue and from the object we get the paint object and reduce each line's alpha value slightly every time and once the alpha value is less than zero, we remove that object from the queue and thus that line would no longer be draw in the **onDraw** method
   
-   {% highlight css %}
+```
    
     public static void scheduleTimer() {
         timer.scheduleAtFixedRate(new TimerTask() {
@@ -123,12 +125,11 @@ Our object is called LinePath. We store the following in it
             }
         }, 0, 100);
     }
-  {% endhighlight %}
+```
   
   **Note:** Don't forget to start the timertask 
   
 ## Output 
   
   ![](/images/this/android/output.gif)
-  
-## Source Code Link
+
