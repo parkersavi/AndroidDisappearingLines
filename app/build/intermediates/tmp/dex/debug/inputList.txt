@@ -1,0 +1,5 @@
+/Users/ps9776/Desktop/ForBlogDrawing/app/build/intermediates/classes/debug
+/Users/ps9776/Desktop/ForBlogDrawing/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-a20948384884db6041eff8138ed81bfd006c4009.jar
+/Users/ps9776/Desktop/ForBlogDrawing/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-158fc78760504caf1348e9ebe02b0a6ec8b9f8b2.jar
+/Users/ps9776/Desktop/ForBlogDrawing/app/build/intermediates/pre-dexed/debug/classes-e4f4046e73ff313659a70f8a33314f4342d18cb2.jar
+/Users/ps9776/Desktop/ForBlogDrawing/app/build/intermediates/pre-dexed/debug/classes-7d2475e5f3e7bcdc7323c5883b6343ac0f8c6bdb.jar
